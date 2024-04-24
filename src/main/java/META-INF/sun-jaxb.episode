@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<bindings xmlns="http://java.sun.com/xml/ns/jaxb" if-exists="true" version="2.1">
+      
+    <!--
+
+Este archivo ha sido generado por Eclipse Implementation of JAXB v2.3.7 
+Visite https://eclipse-ee4j.github.io/jaxb-ri 
+Todas las modificaciones realizadas en este archivo se perderán si se vuelve a compilar el esquema de origen. 
+Generado el: 2024.04.01 a las 04:26:05 PM COT 
+
+  -->
+      
+    <bindings xmlns:tns="http://services.dev.instagram.bosorio.org/" if-exists="true" scd="x-schema::tns">
+            
+        <schemaBindings map="false">
+                  
+            <package name="com.bosorio.instagram.dev.wsdl.post"/>
+                
+        </schemaBindings>
+            
+        <bindings if-exists="true" scd="~tns:create">
+                  
+            <class ref="com.bosorio.instagram.dev.wsdl.post.Create"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:createResponse">
+                  
+            <class ref="com.bosorio.instagram.dev.wsdl.post.CreateResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:delete">
+                  
+            <class ref="com.bosorio.instagram.dev.wsdl.post.Delete"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:deleteResponse">
+                  
+            <class ref="com.bosorio.instagram.dev.wsdl.post.DeleteResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:findAll">
+                  
+            <class ref="com.bosorio.instagram.dev.wsdl.post.FindAll"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:findAllResponse">
+                  
+            <class ref="com.bosorio.instagram.dev.wsdl.post.FindAllResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:findById">
+                  
+            <class ref="com.bosorio.instagram.dev.wsdl.post.FindById"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:findByIdResponse">
+                  
+            <class ref="com.bosorio.instagram.dev.wsdl.post.FindByIdResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:post">
+                  
+            <class ref="com.bosorio.instagram.dev.wsdl.post.Post"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:update">
+                  
+            <class ref="com.bosorio.instagram.dev.wsdl.post.Update"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:updateResponse">
+                  
+            <class ref="com.bosorio.instagram.dev.wsdl.post.UpdateResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:localDate">
+                  
+            <class ref="com.bosorio.instagram.dev.wsdl.post.LocalDate"/>
+                
+        </bindings>
+          
+    </bindings>
+    
+</bindings>
